@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PosCopier.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PosCopier.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PosCopier.test.iml" filepath="$PROJECT_DIR$/.idea/modules/PosCopier.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.filexstudios.mc.PosCopier.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.filexstudios.mc.PosCopier.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.filexstudios.mc.PosCopier.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.filexstudios.mc.PosCopier.test.iml" />
     </modules>
   </component>
 </project>
