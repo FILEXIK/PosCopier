@@ -1,0 +1,6 @@
+{
+  "poscopier.copy_position_key": "Kopiuj pozycję",
+  "poscopier.position_copied": "Pozycja XYZ została skopiowana",
+  "text.autoconfig.poscopier.title": "Ustawienia modyfikacji",
+  "text.autoconfig.poscopier.option.template": "Szablon"
+}

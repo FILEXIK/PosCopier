@@ -1,0 +1,6 @@
+{
+  "poscopier.copy_position_key": "Copy position",
+  "poscopier.position_copied": "The XYZ position has been copied",
+  "text.autoconfig.poscopier.title": "Mod settings",
+  "text.autoconfig.poscopier.option.template": "Template"
+}

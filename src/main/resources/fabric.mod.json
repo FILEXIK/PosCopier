@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "poscopier",
+  "version": "${version}",
+  "name": "PosCopier",
+  "description": "This small modification allows you to copy your current position with one button.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/poscopier/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.filexstudios.mc.poscopier.client.PosCopierClient"
+    ],
+    "main": [
+      "com.filexstudios.mc.poscopier.PosCopier"
+    ],
+    "modmenu": [
+      "com.filexstudios.mc.poscopier.client.ModMenuImpl"
+    ]
+  },
+  "mixins": [
+    "poscopier.mixins.json",
+    {
+      "config": "poscopier.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "update_checker": true
+    }
+  }
+}
